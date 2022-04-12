@@ -1,0 +1,113 @@
+@import 'modules/all';
+@import 'partials/all';
+@import 'vendor/normalize';
+
+body {
+    margin: 15px;
+}
+
+.hero {
+    background-image: url('/images/blueforest.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1770px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    background-color: $blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 1770px;
+
+    .links {
+        ul {
+            list-style: none;
+            
+            li {
+                display: inline;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.places {
+    background-image: url('/images/darktown.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 685px;
+    width: 1770px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        width: 560px;
+    }
+
+    &__images {
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+
+        #djungle {
+            justify-self: flex-start;
+            align-self: flex-start;
+        }
+
+        #forest {
+            justify-self: flex-end;
+            align-self: flex-end;
+        }
+    }
+
+    img {
+        width: 350px;
+        height: 220px;
+        margin: 10px;
+    }
+}
+
+.icons {
+    background-color: $dark;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1770px;
+
+    img {
+        margin-top: 40px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 859px;
+    }
+}
+
+.spain {
+    background-image: url('/images/house.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1770px;
+    height: 700px;
+
+    &__left {
+        background-color: $dark-opacity;
+        width: 540px;
+        height: 375px;
+    }
+}
