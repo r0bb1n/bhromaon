@@ -6,6 +6,17 @@ h1 {
     margin: 0px;
 }
 
+.hero a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+    text-decoration: none;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    text-align: center;
+}
+
 #safe {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
@@ -13,6 +24,20 @@ h1 {
     font-size: 22px;
     line-height: 26px;
     letter-spacing: 6.8px;
+}
+
+#travel {
+    text-align: center;
+    color: $dark-grey;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#submit {
+    font-family: 'Aleo', serif;
+    color: white;
+    font-size: 20px;
 }
 
 h3 {
@@ -26,12 +51,21 @@ h3 {
 p {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
 }
 
-a,
+a{
+    font-family: 'Aleo', serif;
+    color: white;
+}
+
 li {
     font-family: 'Aleo', serif;
     color: white;
+    font-size: 14px;
+    line-height: 26px;
 }
 
 h2 {
@@ -43,4 +77,10 @@ h2 {
 
 a:hover {
     color: $salmon;
+}
+
+.fa-quote-left {
+    color: $blue;
+    font-size: 35px;
+    margin-right: 15px;
 }
