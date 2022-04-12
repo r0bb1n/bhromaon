@@ -11,4 +11,9 @@
     font-size: 16px;
     line-height: 26px;
     padding: 0px;
+
+    &:hover {
+        cursor: pointer;
+        color: $salmon;
+    }
 }

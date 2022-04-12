@@ -1,13 +1,46 @@
-h1,
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: bold; 
+    margin: 0px;
+}
+
+#safe {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin: 0px;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.8px;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin: 0px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
 p {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
 }
 
 a,
-h2,
-h3,
 li {
     font-family: 'Aleo', serif;
     color: white;
+}
+
+h2 {
+    font-family: 'Aleo', serif;
+    color: white;
+    font-size: 36px;
+    line-height: 26px; 
+}
+
+a:hover {
+    color: $salmon;
 }

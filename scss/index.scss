@@ -29,6 +29,12 @@ body {
     align-items: baseline;
     width: 1770px;
 
+    .logo {
+        a {
+            text-decoration: none;
+        }
+    }
+
     .links {
         ul {
             list-style: none;
@@ -164,6 +170,7 @@ body {
         display: flex;
         flex-direction: row;
         background-color: $dark;
+        margin-top: 40px;
 
         img {
             width: 445px;
@@ -175,6 +182,13 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 580px;
+            margin: 40px;
+
+            h3 {
+                justify-self: flex-start;
+                align-self: flex-start;
+            }
         }
     }
 }
