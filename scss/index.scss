@@ -81,6 +81,7 @@ body {
 
             li:hover {
                 color: $salmon;
+                cursor: pointer;
             }
         }
     }
@@ -264,4 +265,16 @@ body {
             color: $blue;
         }
     }
+
+    &__icons:hover {
+        cursor: pointer;
+    }
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-linkeding-in:hover,
+.fa-youtube:hover,
+.fa-pinterest:hover {
+    color: $salmon;
 }
