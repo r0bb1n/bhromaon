@@ -1,10 +1,7 @@
 .button {
     width: 230px;
     height: 60px;
-    background-image: url('/images/btn.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: $blue;
     border: none;
     font-family: 'Aleo', serif;
     color: white;

@@ -53,40 +53,6 @@ body {
     }
 }
 
-.nav {
-    background-color: $blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 1770px;
-    height: 85px;
-
-    .logo {
-        a {
-            text-decoration: none;
-        }
-
-    }
-
-    .links {
-        width: 530px;
-        ul {
-            list-style: none;
-            
-            li {
-                display: inline;
-                padding: 10px;
-            }
-
-            li:hover {
-                color: $salmon;
-                cursor: pointer;
-            }
-        }
-    }
-}
-
 .places {
     background-image: url('/images/darktown.png');
     background-repeat: no-repeat;
