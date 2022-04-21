@@ -244,3 +244,37 @@ body {
 .fa-pinterest:hover {
     color: $salmon;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        max-width: 900px;
+        min-width: 375px;
+        width: auto;
+        margin: 0px;
+    }
+
+    .hero,
+    .nav,
+    .places,
+    .spain,
+    .spain2,
+    .testimonials,
+    .footer {
+        width: 100%;
+        
+    }
+
+    .form {
+        max-width: 350px;
+        min-width: 200px;
+        width: auto;
+    }
+
+    .icons,
+    .places__images,
+    .spain__left,
+    .spain2__right,
+    .testimonials__card {
+        display: none;
+    }
+}

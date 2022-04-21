@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    font-size: 48px;
+    font-size: 10vw;
     font-weight: bold; 
     margin: 0px;
 }
@@ -9,7 +9,7 @@ h1 {
 .hero a {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    font-size: 14px;
+    font-size: 2vw;
     margin-top: 50px;
     text-decoration: none;
     line-height: 26px;
@@ -21,7 +21,7 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     margin: 0px;
-    font-size: 22px;
+    font-size: 2.5vw;
     line-height: 26px;
     letter-spacing: 6.8px;
 }
@@ -29,7 +29,7 @@ h1 {
 #travel {
     text-align: center;
     color: $dark-grey;
-    font-size: 14px;
+    font-size: 1vw;
     letter-spacing: 2.8px;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -37,21 +37,21 @@ h1 {
 #submit {
     font-family: 'Aleo', serif;
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     margin: 0px;
-    font-size: 22px;
+    font-size: 1.5vw;
     line-height: 26px;
 }
 
 p {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    font-size: 16px;
+    font-size: 1vw;
     line-height: 26px;
     letter-spacing: 1.6px;
 }
@@ -64,14 +64,14 @@ a{
 li {
     font-family: 'Aleo', serif;
     color: white;
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 26px;
 }
 
 h2 {
     font-family: 'Aleo', serif;
     color: white;
-    font-size: 36px;
+    font-size: 2vw;
     line-height: 26px; 
 }
 
@@ -81,6 +81,81 @@ a:hover {
 
 .fa-quote-left {
     color: $blue;
-    font-size: 35px;
+    font-size: 2vw;
     margin-right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    #safe {
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        margin: 0px;
+        font-size: 30px;
+        line-height: 26px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
+    #travel {
+        text-align: center;
+        color: $dark-grey;
+        font-size: 10px;
+        letter-spacing: 2.8px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    #submit {
+        font-family: 'Aleo', serif;
+        color: white;
+        font-size: 10px;
+    }
+    
+    h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        margin: 0px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+    }
+    
+    a{
+        font-family: 'Aleo', serif;
+        color: white;
+    }
+    
+    li {
+        font-family: 'Aleo', serif;
+        color: white;
+        font-size: 10px;
+        line-height: 26px;
+    }
+    
+    h2 {
+        font-family: 'Aleo', serif;
+        color: white;
+        font-size: 25px;
+        line-height: 26px; 
+    }
+    
+    a:hover {
+        color: $salmon;
+    }
+    
+    .fa-quote-left {
+        color: $blue;
+        font-size: 2vw;
+        margin-right: 15px;
+    }
 }
